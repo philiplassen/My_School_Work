@@ -45,24 +45,7 @@ def validate(test_results, real_labels):
 def testResults(k, labels):
   res = [KNN(train_data, train_labels, val, k) for val in test_data]
   val = validate(res, labels)
-  print("Printing results")
-  print("Printing results")
-  print("Printing results")
-  print("Printing results")
-  print("Printing results")
-  print("Printing results")
   print(val)
-  print(val)
-  print(val)
-  print(val)
-  print(val)
-  print(val)
-  print("Printed Result")
-  print("Printed Result")
-  print("Printed Result")
-  print("Printed Result")
-  print("Printed Result")
-  print("Printed Result")
   return val
 
 #print(validate(results, Test_Labels))
