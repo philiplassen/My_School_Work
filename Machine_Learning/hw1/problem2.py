@@ -11,10 +11,6 @@ print("Experiments have been generated")
 sample_averages = [float(sum(x))/20 for x in experiments]
 print("Sample averages have been calculated")
 
-#delete this when done
-print(sample_averages[8:11])
-print()
-
 alphas = [.5 + i * 0.05 for i in range(11)]
 
 
@@ -25,6 +21,9 @@ for val in sample_averages:
     if val >= alphas[j]:
       frequencies[j] += float(1)/1000000
 
+print(alphas)
+print("Printing empirical frequencies")
+print(frequencies)
 #plotting alphas against frequencies
 
 
@@ -37,10 +36,10 @@ print(cheb_vals)
 
 pl.xlabel("Alpha Value")
 pl.ylabel("Result")
-
-pl.plot(alphas, frequencies, marker='o', label='Line 1')
-pl.plot(alphas, markov_vals, marker='o', label='Line 2')
-pl.plot(alphas, cheb_vals, marker='o', label='Line 3')
+pl.title("Question 2 Plot")
+pl.plot(alphas, frequencies, marker='o', label='Emperical Frequeuncies')
+pl.plot(alphas, markov_vals, marker='o', label='Markov Bounds')
+pl.plot(alphas, cheb_vals, marker='o', label='Chebyschev Bounds')
 
 pl.legend(["Emperical Frequencies", "Markov's Bound", "Chebyshev's Bound"])
 

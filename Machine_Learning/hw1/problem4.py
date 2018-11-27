@@ -38,11 +38,14 @@ print("The Mean Squared Error is " + str(float(error(predictions, Y))))
 
 #Problem 3
 """
+pl.xlabel("Absolute Kelvin (1000 Kelvin)")
+pl.ylabel("Energy radiation per cm^2")
+pl.title("Linear Regression Plot")
+pl.plot(Xs, f(Xs)) 
+pl.legend(["ax+b"])
 pl.scatter(Xs, Y)
-pl.plot(Xs, f(Xs))
 pl.show()
 """
-
 
 #Problem 4
 def mean(y):
@@ -64,8 +67,11 @@ print("The Variance of the labels is " + str(variance(Y).item()))
 
 X3 = np.power(X, 3)
 model3 = linearRegression(X3, Y)
-f3 = lambda x : model3[0] + model3[1] * x * x * x
-predictions3 = [f3(x) for x in Xs]
+f3 = lambda x : model3[0] + model3[1] * x 
+
+
+X33 = np.power(Xs, 3)
+predictions3 = [f3(x) for x in X33]
 
 print("Results for the transformen mapping ")
 
@@ -75,12 +81,12 @@ print("The Mean Squared Error is " + str(float(error(predictions3, Y))))
 
 
 
-"""
-fig1 = pl.figure(1)
-pl.scatter(Xs, Y)
-pl.plot(Xs, f(Xs))
-fig2 = pl.figure(2)
-pl.scatter(Xs, Y)
-pl.plot(Xs, f3(Xs))
+X33 = np.power(Xs, 3)
+pl.xlabel("Absolute Kelvin (1000 Kelvin)^3")
+pl.ylabel("Energy radiation per cm^2")
+pl.title("Linear Regression on Transformed Data Plot")
+pl.plot(X33, f3(X33)) 
+pl.legend(["ax^3+b"])
+pl.scatter(X33, Y)
 pl.show()
-"""
+
