@@ -1,9 +1,13 @@
+import sys
+DEBUG = False
+for arg in sys.argv:
+  if arg == '-v':
+    DEBUG = True
 
 #Verbose for Debugging
-DEBUG = True
 def log(message):
   if DEBUG:
-    print(
+    print(message)
 
 
 
@@ -16,7 +20,74 @@ from matplotlib import pyplot as pl
 trainInput = np.loadtxt(open("trainInput.csv", "rb"), delimiter=",")
 trainTarget = np.loadtxt(open("trainTarget.csv", "rb"), delimiter=",")
 
-print(trainInput.shape)
-print(trainTarget.shape)
+log(trainInput.shape)
+log(trainTarget.shape)
+
+#Labels are 1 and 0 we can take the sum for frequency 1 labeled data
+lengthOfData = trainTarget.shape[0]
+countLabel1 = sum(trainTarget)
+countLabel0 = lengthOfData - countLabel1
+
+print("Output for Question 1")
+print("")
+print("Frequency of label 0 : " + str(countLabel0 / lengthOfData))
+print("Frequency of label 1 : " + str(countLabel1 / lengthOfData))
+print("")
+
+#Question 2
+from sklearn.decomposition import PCA
+
+decomp = PCA()
+decomp.fit(trainInput)
+count = 0
+limit = 0.9
+value = 0.0
+while (value < limit):
+  value += decomp.explained_variance_ratio_[count]
+  count += 1
+
+log(value)
+log(count)
+
+print("The number of Principal Components needed to explain 90% of the variance : " + str(count))
+results = np.matmul(trainInput, decomp.components_[:, 0:2])
+c1x = [results[i][0] for i in range(lengthOfData) if trainTarget[i] == 1]
+c2x = [results[i][0] for i in range(lengthOfData) if trainTarget[i] == 0]
+c1y = [results[i][1] for i in range(lengthOfData) if trainTarget[i] == 1]
+c2y = [results[i][1] for i in range(lengthOfData) if trainTarget[i] == 0]
+
+
+
+log(len(c1x))
+log(len(c2x))
+log(len(c1y))
+log(len(c2y))
+log(c1x[0:5])
+log(c2x[0:5])
+log(c1y[0:5])
+log(c2y[0:5])
+pl.subplot(2, 1, 1)
+pl.xlabel("Singular Value")
+pl.plot(decomp.singular_values_)
+#pl.scatter([i for i in range(len(decomp.singular_values_))], decomp.singular_values_)
+
+
+pl.subplot(2, 1, 2)
+
+pl.scatter(c1x, c1y)
+pl.scatter(c2x, c2y)
+
+pl.show()
+
+from sklearn.cluster import KMeans
+
+
+
+
+
+
+
+
+
 
 
