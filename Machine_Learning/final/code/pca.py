@@ -53,8 +53,27 @@ for target, color in zip(targets,colors):
 ax.legend(targets)
 ax.grid()
 
+def getIndex(label):
+  index = 0
+  while (trainTarget[index] != label):
+    index += 1
+  return index
 
+index0 = getIndex(0)
+index1 = getIndex(1)
 
+first0 = trainInput[index0, :]
+first1 = trainInput[index1, :]
+
+from sklearn.cluster import KMeans
+
+kmeans = KMeans(n_clusters = 2, init = trainInput[[index0, index1], :]).fit(trainInput)
+projections = pca.transform(kmeans.cluster_centers_)
+print(projections)
+[x, y] = projections[0, :]
+ax.scatter([x], [y], c = "g", s = 200)
+[x, y] = projections[1, :]
+ax.scatter([x], [y], c = "orange", s = 200)
 pl.show()
 
 
