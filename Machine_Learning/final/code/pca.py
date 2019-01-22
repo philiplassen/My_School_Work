@@ -21,10 +21,10 @@ tf = pd.read_csv("trainTarget.csv", names=["target"])
 
 
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 
 #Standardizing data
-trainInput  = StandardScaler().fit_transform(trainInput)
+#trainInput  = StandardScaler().fit_transform(trainInput)
 
 pca = PCA(n_components = 2)
 principalComponents = pca.fit_transform(trainInput)
