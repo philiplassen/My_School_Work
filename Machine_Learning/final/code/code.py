@@ -51,6 +51,13 @@ log(count)
 
 print("The number of Principal Components needed to explain 90% of the variance : " + str(count))
 results = np.matmul(trainInput, decomp.components_[:, 0:2])
+
+new_pca = PCA(n_components=2)
+new_pca.fit(trainInput)
+results = new_pca.transform(trainInput)
+
+
+
 c1x = [results[i][0] for i in range(lengthOfData) if trainTarget[i] == 1]
 c2x = [results[i][0] for i in range(lengthOfData) if trainTarget[i] == 0]
 c1y = [results[i][1] for i in range(lengthOfData) if trainTarget[i] == 1]
@@ -79,13 +86,32 @@ pl.scatter(c2x, c2y)
 
 pl.show()
 
+
+#Question 3 (Clustering)
+
+
+#getting Index of first 0
+def getIndex(label):
+  index = 0
+  while (trainTarget[index] != label):
+    index += 1
+  return index
+
+index0 = getIndex(0)
+index1 = getIndex(1)
+
+first0 = trainInput[index0, :]
+first1 = trainInput[index1, :]
+
+log("Testing initial centers")
+log("index 0 : " + str(index0))
+log("index 0 : " + str(index1))
+log("Shapes of centers : " + str(first0.shape) + " " + str(first1.shape))
+
 from sklearn.cluster import KMeans
 
-
-
-
-
-
+initial_center = np.vstack(first0, first1)
+cluster = KMeans(n_clusters = 2, init = initial_center).fit(trainInput)
 
 
 

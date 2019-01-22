@@ -1,13 +1,24 @@
+import sys
+DEBUG = False
+for arg in sys.argv:
+  if arg == '-v':
+    DEBUG = True
+
+#Verbose for Debugging
+def log(message):
+  if DEBUG:
+    print(message)
+
 import numpy as np
 from matplotlib import pyplot as pl
 from sklearn.cluster import KMeans
 
-matrix = np.loadtxt(open("projection_matrix.csv", "rb"), delimiter=",")
+matrix = np.loadtxt(open("../projection_matrix.csv", "rb"), delimiter=",")
 
 print(matrix)
 print(matrix.shape)
 
-train = np.loadtxt(open("MLWeedCropTrain.csv", "rb"), delimiter=",")
+train = np.loadtxt(open("../MLWeedCropTrain.csv", "rb"), delimiter=",")
 print(train.shape)
 
 labels = train[:, 13]
@@ -15,8 +26,10 @@ train  = (train[:,0:13])
 print(train.shape)
 
 data = np.dot(matrix, train.T).T
-
-print(data.shape)
+log("This is for the shape of cluster data")
+log("-------------------------------------")
+log(data.shape)
+log("-------------------------------------")
 
 weed = [data[i, :] for i in range(1000) if labels[i] == 0]
 weed1 = [v[0] for v in weed]
