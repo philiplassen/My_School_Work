@@ -63,3 +63,21 @@ b = 2
 
 gammas = [gamma * (b ** i) for i in range(-3, 4)]
 Cs = [b ** i for i in range(-1, 4)]
+param_grid = {'C' : Cs, 'gamma' : gammas}
+log("Paramaters under consideration")
+log("C values are : " + str(Cs))
+log("Gamma values are : " + str(gammas))
+def params(X, y, nfolds, param_grid):
+  grid_search = GridSeachCV(svm.SVC(kernel = 'rbf'), param_grid, cv = nfolds)
+  grid_search.fit(X, y)
+  grid_search.best_params_
+  return grid_search.best_params_
+
+log("Selected Paramater are ....")
+log("---------------------------")
+params = params(X, y, 5, param_grid)
+log(params)
+log("---------------------------")
+
+
+
