@@ -12,12 +12,15 @@ def log(message):
 import numpy as np
 import pandas as pd
 
-fileX = "trainInput.csv"
-filey = "trainTarget.csv"
+fileX = "trainSubsetInput.csv"
+filey = "trainSubsetTarget.csv"
 
 
-X = np.loadtxt(open("trainInput.csv", "rb"), delimiter=",")
-y = np.loadtxt(open("trainTarget.csv", "rb"), delimiter=",")
+X = np.loadtxt(open("trainSubsetInput.csv", "rb"), delimiter=",")
+y = np.loadtxt(open("trainSubsetTarget.csv", "rb"), delimiter=",")
+testX = np.loadtxt(open("testInput.csv", "rb"), delimiter=",")
+testy = np.loadtxt(open("testTarget.csv", "rb"), delimiter=",")
+
 
 
 index0s = [i for i in range(len(y)) if y[i] == 0]
@@ -68,7 +71,7 @@ log("Paramaters under consideration")
 log("C values are : " + str(Cs))
 log("Gamma values are : " + str(gammas))
 def params(X, y, nfolds, param_grid):
-  grid_search = GridSeachCV(svm.SVC(kernel = 'rbf'), param_grid, cv = nfolds)
+  grid_search = GridSearchCV(svm.SVC(kernel = 'rbf'), param_grid, cv = nfolds)
   grid_search.fit(X, y)
   grid_search.best_params_
   return grid_search.best_params_
@@ -79,5 +82,12 @@ params = params(X, y, 5, param_grid)
 log(params)
 log("---------------------------")
 
-
-
+log("Using paramaters to train model...")
+model = svm.SVC(C = params['C'], gamma = params['gamma'], kernel = 'rbf')
+model.fit(X, y)
+log("Model has been trained")
+log("Testing model on test data....")
+log("-----------------------------")
+accuracy = model.score(testX, testy)
+log(accuracy)
+log("-----------------------------")
