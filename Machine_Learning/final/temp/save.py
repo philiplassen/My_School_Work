@@ -10,7 +10,6 @@ def log(message):
     print(message)
 
 import numpy as np
-import pandas as pd
 
 fileX = "trainSubsetInput.csv"
 filey = "trainSubsetTarget.csv"
@@ -58,8 +57,8 @@ def shortestDistance(x, X):
 theta = G(X, y)
 gamma = 1.0 / (2 * (theta ** 2))
 
-print(theta)
-print(gamma)
+print("Value of theta : " + str(theta))
+print("Value of gamma : " + str(gamma))
 
 b = 2
 
@@ -91,3 +90,9 @@ log("-----------------------------")
 accuracy = model.score(testX, testy)
 log(accuracy)
 log("-----------------------------")
+log("Testing model on train  data....")
+log("-----------------------------")
+accuracy = model.score(X, y)
+log(accuracy)
+log("-----------------------------")
+

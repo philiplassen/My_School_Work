@@ -1,0 +1,16 @@
+\begin{tabular} { |c|c|c|c|c|c|c|c|c| }
+\hline
+ Point & H1  &  H2  &  H3  &  H4  &  H5  &  H6  &  H7  &  H8 \\ \hline
+  d1  & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1\\ 
+  \hline
+  d2  & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1\\ 
+  \hline
+  d3  & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1\\ 
+  \hline
+  d4  & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1\\ 
+  \hline
+  d5  & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1\\ \hline
+  d6  & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1\\ \hline
+  d7  & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1\\ \hline
+  d8  & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1\\ \hline
+  \end{tabular}

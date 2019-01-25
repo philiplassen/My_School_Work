@@ -75,7 +75,7 @@ log(c1y[0:5])
 log(c2y[0:5])
 pl.subplot(2, 1, 1)
 pl.xlabel("Singular Value")
-pl.plot(decomp.singular_values_)
+pl.plot(decomp.explained_variance_)
 #pl.scatter([i for i in range(len(decomp.singular_values_))], decomp.singular_values_)
 
 
