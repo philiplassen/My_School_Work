@@ -14,28 +14,35 @@ from skimage.exposure import histogram
 image1 = imread("Images/pout.tif")
 image2 = imread("Images/cameraman.tif")
 image3 = imread("Images/cell.tif")
+
 def cum_hist(histogram):
-  """Takes a tuple histogram = (bin, counts) and returns
-  the cumulative histogram with integer bins from 0 to 255"""
-  (init_counts, init_bins) = histogram
-  if isinstance(init_bins[0], np.float64):
-    init_bins = np.round(init_bins * 255)
-    init_bins = init_bins.astype(int)
-  counts = [0 for i in range(256)]
-  bins = [i for i in range(256)]
-  total = sum(init_counts)
-  for i in range(len(init_bins)): 
-    counts[init_bins[i]] = float(init_counts[i]) / total
-  return (np.round(np.cumsum(counts), 10) , bins)
+  """Takes a histogram of length 256 with integer values as input
+  and returns the cumulative histogram represented as an array
+  from 0 to 255 with elements normalized from 0 to 1"""
+  cum_his = np.cumsum(histogram)
+  total = sum(histogram)
+  normalized = cum_his / total 
+  return np.round(normalized, 8)
+
+
+def fix_bins(histogram_as_pair):
+  (counts, bins) = histogram_as_pair
+  result = [0 for i in range(256)]
+  for i in range(min(bins), max(bins) + 1):
+    result[i] = counts[i - min(bins)]
+  return result
     
-"""
-(y, x) = cum_hist(histogram(image1))
-plt.plot(x, y)
-plt.ylabel("Frequency")
+
+"""   
+y = cum_hist(fix_bins(histogram(image1)))
+x = [i for i in range(256)]
+plt.plot(x, y, color = 'r')
+plt.bar(x, y)
+plt.ylabel("Relative Frequency")
 plt.xlabel("Pixel Intensity")
 plt.xlim(0, 255)
 plt.ylim(bottom = 0)
-plt.legend(["Cumulative Histogram"])
+plt.legend(["Cumulative Histogram", "Relative Bar Plot"])
 plt.title("Cumulative Histogram of pout.tif")
 plt.show()
 """
@@ -43,19 +50,18 @@ def C(I, CDF):
   """ Takes a Grey Scale Image and a
   CDF and returns their function composition
   Assumes the CDF is an array of length 256"""
-  if isinstance(I[0,0], np.float64):
-    I = np.round(255 * I).astype(int)
   CI = [[CDF[val] for val in row] for row in I]
   return CI / max(CDF)
 
-"""
-(y, x) = cum_hist(histogram(image1))
+
+y = cum_hist(fix_bins(histogram(image1)))
 plt.subplot(1, 2, 1)
+plt.title("pout.tif")
 plt.imshow(C(image1, y), cmap = 'gray')
 plt.subplot(1, 2, 2)
+plt.title("Modified pout.tif")
 plt.imshow(image1, cmap = 'gray')
 plt.show()
-"""
 
 def cdf_inverse(l, cdf):
   #print(l)
@@ -98,6 +104,7 @@ def midway(im1, c1, c2):
   + cdf_inverse(val, c2)) / 2.0 for val in row] for row in temp]
   return result
 
+"""
 from skimage.color import rgb2gray
 im1 = rgb2gray(plt.imread("Images/movie_flicker1.tif"))
 im2 = rgb2gray(plt.imread("Images/movie_flicker2.tif"))
@@ -111,7 +118,7 @@ print("processing image2")
 new_image2 = midway(im2, vals2, vals1)
 print("done prccessing image2")
 print("np sum")
-print(np.sum(im1 + new_image1))
+print(np.sum(im1 - new_image1))
 plt.subplot(2, 2, 1)
 plt.axis('off')
 plt.title("movie_flicker1.tif")
@@ -129,7 +136,7 @@ plt.axis('off')
 plt.title("movie_flicker 2 midway specification")
 plt.imshow(new_image2, cmap = 'gray', aspect = "auto")
 plt.show()
-
+"""
 
 
 
