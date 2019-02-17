@@ -54,17 +54,25 @@ def C(I, CDF):
   return CI / max(CDF)
 
 
+
+
+
+
+"""
 y = cum_hist(fix_bins(histogram(image1)))
 plt.subplot(1, 2, 1)
 plt.title("pout.tif")
-plt.imshow(C(image1, y), cmap = 'gray')
-plt.subplot(1, 2, 2)
-plt.title("Modified pout.tif")
+plt.axis('off')
 plt.imshow(image1, cmap = 'gray')
+plt.subplot(1, 2, 2)
+plt.axis('off')
+plt.title("Modified pout.tif")
+plt.imshow(C(image1, y), cmap = 'gray')
 plt.show()
+"""
+
 
 def cdf_inverse(l, cdf):
-  #print(l)
   return min([s for s in range(256) if cdf[s] >= l])
 """  
 (y, x) = cum_hist(histogram(image1))
@@ -78,10 +86,10 @@ def histogram_matching(im1, c1, c2):
   result = [[cdf_inverse(val, c2) for val in row] for row in temp]
   return result
 
-
 """
-(vals1, bins1) = cum_hist(histogram(image2))
-(vals2, bins2) = cum_hist(histogram(image3))
+vals1  = cum_hist(fix_bins(histogram(image2)))
+vals2  = cum_hist(fix_bins(histogram(image3)))
+
 new_image = histogram_matching(image2, vals1, vals2)
 plt.subplot(1, 3, 1)
 plt.axis('off')
@@ -96,7 +104,46 @@ plt.axis('off')
 plt.title("Histogram Matching")
 plt.imshow(new_image, cmap = 'gray', aspect = "auto")
 plt.show()
+
+vals3 = cum_hist(fix_bins(histogram(np.array(new_image))))
+x = [i for i in range(256)]
+plt.plot(x, vals1, color = 'r')
+
+plt.plot(x, vals2, color = 'b')
+
+plt.plot(x, vals3, color = 'g')
+plt.ylabel("Relative Frequency")
+plt.xlabel("Pixel Intensity")
+plt.xlim(0, 255)
+plt.legend(["Original CDF", "Target CDF", "New Image CDF"])
+plt.title("Histogram Matching Plot")
+plt.ylim(bottom = 0)
+plt.show()
+
+
+
 """
+from skimage.exposure import equalize_hist
+vals1  = cum_hist(fix_bins(histogram(image2)))
+his = [1 if 0 < i < 85 else 0 for i in range(256)]
+vals2 = cum_hist(his)
+new_image = histogram_matching(image2, vals1, vals2)
+plt.subplot(1, 3, 1)
+plt.axis('off')
+plt.title("cameraman.tif")
+plt.imshow(image2, cmap = 'gray', aspect = "auto")
+plt.subplot(1, 3, 2)
+plt.axis('off')
+plt.title("Histogram Matching")
+print(new_image)
+skim = equalize_hist(image2, his)
+plt.imshow(new_image, cmap = 'gray', aspect = "auto", vmin = np.min(new_image), vmax = np.max(new_image))
+plt.subplot(1, 3, 3)
+plt.axis('off')
+plt.title("Skimage Implementation")
+plt.imshow(skim, cmap = 'gray', aspect = "auto")
+plt.show()
+
 
 def midway(im1, c1, c2):
   temp = C(im1, c1)
@@ -104,21 +151,26 @@ def midway(im1, c1, c2):
   + cdf_inverse(val, c2)) / 2.0 for val in row] for row in temp]
   return result
 
+
 """
 from skimage.color import rgb2gray
 im1 = rgb2gray(plt.imread("Images/movie_flicker1.tif"))
 im2 = rgb2gray(plt.imread("Images/movie_flicker2.tif"))
 print(np.sum(im1))
 print(im1.shape)
-(vals1, bins1) = cum_hist(histogram(im1))
-(vals2, bins2) = cum_hist(histogram(im2))
+vals1 = cum_hist(histogram(im1)[0])
+vals2 = cum_hist(histogram(im2)[0])
 print("processing image1")
+im1 = np.floor(im1 * 255).astype(int)
+im2 = np.floor(im2 * 255).astype(int)
 new_image1 = midway(im1, vals1, vals2)
 print("processing image2")
 new_image2 = midway(im2, vals2, vals1)
 print("done prccessing image2")
 print("np sum")
-print(np.sum(im1 - new_image1))
+plt.imshow(im1 - new_image1)
+plt.imshow(im2 - new_image2)
+plt.show()
 plt.subplot(2, 2, 1)
 plt.axis('off')
 plt.title("movie_flicker1.tif")
@@ -137,7 +189,6 @@ plt.title("movie_flicker 2 midway specification")
 plt.imshow(new_image2, cmap = 'gray', aspect = "auto")
 plt.show()
 """
-
 
 
 
