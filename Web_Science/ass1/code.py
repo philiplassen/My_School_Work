@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 DEBUG = False
 for arg in sys.argv:
@@ -17,5 +18,6 @@ log(list(df.columns.values))
 
 df.columns = ["ID", "Question", "Answer", "Category"]
 
+print(set(df["Category"]))
 
 
