@@ -19,8 +19,30 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-f = np.random.uniform(0, 1, 36)
-f = np.resize(f, (6, 6))
+f = np.random.uniform(0, 1, 48)
+f = np.resize(f, (6, 8))
+
+
+def shift(f, direction, boundary = "black"):
+  (rows, cols) = f.shape
+  val = 0 
+  if boundary == "black":
+    val = 0
+  if boundary == "white":
+    val = 1
+  fn = np.pad(f, np.absolute(direction), "constant", constant_values = val)
+  result = np.zeros(f.shape)
+  print(np.round(fn, 1))
+  print(np.round(f, 1))
+  for r in range(rows):
+    for c in range(cols):
+        result[r, c] =  fn[r+direction, c] if (direction > 0) else fn[r + np.abs(direction), c + 2 * np.abs(direction)]
+  return result
+
+
+
+
+
 
 
 def right_shift(f, boundary = "black"):
@@ -39,8 +61,8 @@ def right_shift(f, boundary = "black"):
     
   
 
-kernel = np.array([[0, 0, 0], [0, 0, 1], [0, 0, 0]])
+
 fig, ax = plt.subplots(1, 2)
 ax[0].imshow(f, vmin = 0, vmax = 1)
-ax[1].imshow(right_shift(f), vmin = 0, vmax = 1)
+ax[1].imshow(shift(f, -3), vmin = 0, vmax = 1)
 plt.show()
