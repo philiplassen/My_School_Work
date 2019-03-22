@@ -35,6 +35,15 @@ def degrade(kernel, image, image_noise):
   return result
   #return result[height - 1: rows - height + 1, width - 1:columns - width + 1]
 
+def degrade(kernel, image, image_noise):
+  f = image
+  f_fft = fft2(f)
+  k_fft = fft2(kernel, shape = f.shape)
+  i_fft = fft2(image_noise, shape = f.shape)
+  result = ifft2((f_fft * k_fft) + i_fft)
+  return result
+
+
 def inverse_filter(kernel, degraded_image, n):
   g = degraded_image
   h = kernel
@@ -49,9 +58,19 @@ def inverse_filter(kernel, degraded_image, n):
   #return result[height - 1: rows - height + 1, width - 1:columns - width + 1]
   
 
+def weiner_filter(kernel, degraded_image, K):
+  g = degraded_image
+  h = kernel
+  G = fft2(g)
+  H = fft2(kernel, G.shape)
+  result = (1 / H) * G * np.square(np.absolute(H)) / (np.square(np.absolute(H)) + K)
+  return ifft2(result)
+
+
 degraded_image = (degrade(kernel, f, noise))
-degraded_image = (degrade(kernel, f, np.zeros(f.shape)))
-restored_image = (inverse_filter(kernel, degraded_image, 0.01))
+#degraded_image = (degrade(kernel, f, np.zeros(f.shape)))
+restored_image = inverse_filter(kernel, degraded_image, .001)
+#restored_image = (weiner_filter(kernel, degraded_image,0))
 fig, ax = plt.subplots(1, 3)
 
 ax[0].imshow(np.abs(degrade(kernel, f, noise)), vmin = 0, vmax = 255, cmap = 'gray')
