@@ -1,0 +1,307 @@
+Question Number: 1
+What does water turn in to below 0 degrees celsius?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 10}
+Question Number: 2
+What is the device called for locating objects under the sea?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 5}
+Question Number: 3
+What is the method called when you grow plants without using soil?
+sports
+{'sports': 5, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 1}
+Question Number: 4
+What is the sport called, where two players compete on an orange court, shooting a yellow ball between them?
+sports
+{'sports': 11, 'music': 0, 'video-games': 1, 'for-kids': 0, 'science-technology': 0}
+Question Number: 5
+How many players has a hockey team got on the ice?	
+sports
+{'sports': 10, 'music': 0, 'video-games': 1, 'for-kids': 1, 'science-technology': 0}
+Question Number: 6
+What was the Olympic city of 1992?
+sports
+{'sports': 13, 'music': 0, 'video-games': 5, 'for-kids': 0, 'science-technology': 1}
+Question Number: 7
+What do hungry people need?
+for-kids
+{'sports': 1, 'music': 0, 'video-games': 1, 'for-kids': 2, 'science-technology': 0}
+Question Number: 8
+What is the capital of Hawaii?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 9
+The Statue of Liberty was gifted to the United States by which country?
+
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 6, 'science-technology': 0}
+Question Number: 10
+Who rose to fame in 2008 with the release of the single I Kissed a Girl?
+music
+{'sports': 1, 'music': 13, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 11
+In which European city was Swedish pop group ABBA formed in 1972?
+music
+{'sports': 1, 'music': 8, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 12
+What is the better known stage name of Robyn Fenty?
+music
+{'sports': 0, 'music': 5, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 13
+What is the game called that is sometimes abbreviated by CS?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 4, 'for-kids': 0, 'science-technology': 1}
+Question Number: 14
+In which game is every assassinated person a real historical person with accurate death date and place? 
+for-kids
+{'sports': 1, 'music': 0, 'video-games': 2, 'for-kids': 12, 'science-technology': 1}
+Question Number: 15
+Which year was Fallout 3 released?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 15, 'for-kids': 2, 'science-technology': 0}
+Question Number: 16
+What is the absolute value of -4? - "4"? "16"? "-4"? "0"?'
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 17
+What is the term for a matrix with pairwise orthonormal vectors"? - "Orthogonal matrix"? "Orthonormal matrix"? "Gram matrix"? "Perpendicular matrix"?'
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 7}
+Question Number: 18
+In the programming language F#, a computation expression is..? - "An expression used in list comprehensions"? "A monad"? "A parallelizable expression"? "Computations with the 'unit' type"?'
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 19
+Micheal Jordan is inducted into the Hall of Fame in which sport? - "Basketball"? "Cycling"? "Cricket"? "Curling"?'
+sports
+{'sports': 7, 'music': 0, 'video-games': 1, 'for-kids': 1, 'science-technology': 0}
+Question Number: 20
+Which of the following female athletes won the gold medal for Denmark in swimming at the 2016 Rio de Janerio Olympic Games? - "Jeanette Ottesen"? "Pernille Blume"? "Sarah Bro"? "Julie Kepp Jensen"? '
+sports
+{'sports': 3, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 21
+In which of the following four years did Denmark win the most gold medals at the olympic game? - "1996, Atlanta"? "2000, Sydney"? "2004, Athens"? "2008, Beijing"?'
+sports
+{'sports': 8, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 22
+What is the color of the chiney on top of Bamses house (from Bamse og Kylling)? - "Red and Yellow"? "Green and White"? "Black and Blue"? "Blue and Purple"?' 
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 23
+SpongeBob SquarePants has a best friend, what is his name? - "Mr. Krabs"? "Patrick Star"? "Squidward tentacles"? "David Hasselhoff"?'
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 24
+Which of these dogs are not one of the original dogs in the first season of Paw Patrol? - "Rubble"? "Sky"? "Marshall"? "Tracker"?'
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 25
+This guy had a hit song called Papirsklip - "Bent Mejding"? "Kim Larsen"? "Johnny Madsen"? "Jarl Friis Mikkelsen"?'
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 26
+Which artist made the song Ring of Fire? - "Johnny Cash"? "Willie Nelson"? "George Jones"? "Hank Williams"?' 
+music
+{'sports': 0, 'music': 6, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 27
+Who made the song "Get low" featured on the soundtrack of the videogame "Need for Speed: Underground"? - "Ludacris"? "Lil Wayne"? "Lil John"? "Nate Dogg"?' 
+video-games
+{'sports': 0, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 28
+What gaming company created the character Mario? - "Nintendo"? "Sony"? "Microsoft"? "Sega"?'
+video-games
+{'sports': 0, 'music': 0, 'video-games': 16, 'for-kids': 1, 'science-technology': 0}
+Question Number: 29
+What is the subtitle of the fifth Elder Scrolls Game by Bethesda Studios? - "Oblivion"? "Arena"? "Morrowind"? "Skyrim"?'
+video-games
+{'sports': 2, 'music': 0, 'video-games': 5, 'for-kids': 0, 'science-technology': 0}
+Question Number: 30
+The secret organization "La-li-lu-le-lo" is mentioned in what game series? - "Mass Effect"? "Metal Gear Solid"? "World of Warcraft"? "Grand Theft Auto"?'
+video-games
+{'sports': 0, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 31
+Who is the only danish recipient of a Turing Award?
+sports
+{'sports': 6, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 1}
+Question Number: 32
+What is the first 6 digits of Pi?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 1, 'for-kids': 0, 'science-technology': 7}
+Question Number: 33
+What is the melting point of Uranium in Kelvin?
+Question Number: 33
+What is the melting point of Uranium in Kelvin?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 9}
+Question Number: 34
+Who was the top scorer at the 2002 World Cup in Football?
+sports
+{'sports': 12, 'music': 0, 'video-games': 0, 'for-kids': 5, 'science-technology': 0}
+Question Number: 35
+Which club has won the most Danish championships in football?
+sports
+{'sports': 7, 'music': 0, 'video-games': 2, 'for-kids': 2, 'science-technology': 0}
+Question Number: 36
+Besides Celtic and Ranger, which club has most recently won the Scottish championship in football?
+sports
+{'sports': 5, 'music': 0, 'video-games': 1, 'for-kids': 0, 'science-technology': 0}
+Question Number: 37
+Name the missing Teletubbie besides Laa-Laa, Po and Tinky Winky?
+sports
+{'sports': 3, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 38
+What is the name of Dexter's annoying sister?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 39
+Who is the owner of Pluto?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 40
+Who wrote the 1976 hit 'Rich Girl'?
+music
+{'sports': 0, 'music': 9, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 41
+New Order formed after the lead singer in Joy Division hung himself. What was his name?
+music
+{'sports': 0, 'music': 7, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 42
+Who produced Iggy Pop's debut album 'The Idiot'?
+music
+{'sports': 0, 'music': 8, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 43
+What color is Mario's hat?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 7, 'for-kids': 4, 'science-technology': 0}
+Question Number: 44
+Which year was the first PlayStation released in Japan?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 37, 'for-kids': 3, 'science-technology': 0}
+Question Number: 45
+When was Donkey Kong first released?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 16, 'for-kids': 2, 'science-technology': 0}
+Question Number: 46
+Which country in the world has maximum number of robots working?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 47
+A device used to measure the strength of magnetic field.
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 6}
+Question Number: 48
+In which year did IT Act came into force in India?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 1}
+Question Number: 49
+What was the Olympic city of 1992 ?
+sports
+{'sports': 15, 'music': 0, 'video-games': 5, 'for-kids': 0, 'science-technology': 1}
+Question Number: 50
+How long is an Olympic swimming pool?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 51
+In which country is the Interlagos F1-circuit ?
+sports
+{'sports': 4, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 52
+Which character was Walt Disney’s favorite?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 53
+Who is the quietest Disney princess?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 1, 'for-kids': 2, 'science-technology': 0}
+Question Number: 54
+Popeye has how many nephews?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 1}
+Question Number: 55
+Miley Cyrus is the daughter of country singer Billy Ray Cyrus?
+music
+{'sports': 0, 'music': 4, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 56
+What is the better known stage name of Robyn Fenty?
+music
+{'sports': 0, 'music': 7, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 57
+Who composed the classical piece Peter and the Wolf?
+music
+{'sports': 0, 'music': 5, 'video-games': 0, 'for-kids': 3, 'science-technology': 0}
+Question Number: 58
+which year the Minecrafts was released?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 19, 'for-kids': 7, 'science-technology': 0}
+Question Number: 59
+The character Master Hands is in which game?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 2, 'for-kids': 2, 'science-technology': 0}
+Question Number: 60
+What does PvE mean in Destiny 2 gaming activities?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 13, 'for-kids': 0, 'science-technology': 0}
+Question Number: 61
+What does a light-year measure?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 7}
+Question Number: 62
+Which country in the world has maximum number of robots working?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 63
+The fear of being out of mobile phone contact is known as?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 1}
+Question Number: 64
+What is the object that hockey players send across the ice called?
+sports
+{'sports': 6, 'music': 0, 'video-games': 3, 'for-kids': 0, 'science-technology': 0}
+Question Number: 65
+What is the nickname of the Belgian national soccer team?	
+sports
+{'sports': 3, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 66
+How long must a billiard cue be?
+sports
+{'sports': 1, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 67
+How many years are there in a millennium?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 1}
+Question Number: 68
+How many colours are in a rainbow?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 4}
+Question Number: 69
+What is the first element on the periodic table of elements?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 8}
+Question Number: 70
+Who was the lead singer of the band "Queen"?
+music
+{'sports': 1, 'music': 16, 'video-games': 0, 'for-kids': 3, 'science-technology': 0}
+Question Number: 71
+How many strings does a violin usually have?
+music
+{'sports': 0, 'music': 3, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 72
+What is the name of Nirvana's debut album?
+music
+{'sports': 0, 'music': 18, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 73
+What does Mario jump on after completing a level?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 8, 'for-kids': 0, 'science-technology': 0}
+Question Number: 74
+Which field of study is the basis of the Tomb Raider?
+video-games
+{'sports': 0, 'music': 1, 'video-games': 7, 'for-kids': 1, 'science-technology': 2}
+Question Number: 75
+Name the creator of PS4?
+Question Number: 75
+Name the creator of PS4?
+Question Number: 75
+Name the creator of PS4?
+Question Number: 75
+Name the creator of PS4?
