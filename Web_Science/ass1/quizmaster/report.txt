@@ -7,3 +7,9 @@ Web Crawl. It should just search the question, and then find the first word that
 of words. The set of words are keywords for each topic. The first word to match, gives the classification
 based on which question it pertains to.
 
+
+Majority Vote
+
+Need to figure out how to implement majority vote in pandas
+
+

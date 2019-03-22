@@ -305,3 +305,628 @@ Question Number: 75
 Name the creator of PS4?
 Question Number: 75
 Name the creator of PS4?
+Question Number: 75
+Name the creator of PS4?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 17, 'for-kids': 2, 'science-technology': 0}
+Question Number: 76
+Which British comedy group is the programming language Python named after?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 77
+Which Polish scientist discovered the chemical element radium and was famous for her work with radiation?
+science-technology
+{'sports': 1, 'music': 0, 'video-games': 0, 'for-kids': 3, 'science-technology': 8}
+Question Number: 78
+Which year was the first version of Windows released?
+sports
+{'sports': 21, 'music': 0, 'video-games': 0, 'for-kids': 14, 'science-technology': 3}
+Question Number: 79
+What is the American name for football? 
+sports
+{'sports': 4, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 80
+What is the name of an event involving athletes with a range of disabilities, which is organized every four years in parallel with the Olympic Games?
+video-games
+{'sports': 7, 'music': 1, 'video-games': 10, 'for-kids': 2, 'science-technology': 0}
+Question Number: 81
+Which year did a computer first defeat the world champion in the mind sport chess?
+science-technology
+{'sports': 1, 'music': 0, 'video-games': 3, 'for-kids': 2, 'science-technology': 8}
+Question Number: 82
+What is the name of the forgetful blue fish in Finding Nemo?
+sports
+{'sports': 2, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 1}
+Question Number: 83
+How many Harry Potter books are there?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 5, 'science-technology': 0}
+Question Number: 84
+What was Hitler's first name?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 85
+What is the name of Lady Gaga's first hit single?
+music
+{'sports': 0, 'music': 21, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 86
+Which American state is known to be a hub for country music?
+music
+{'sports': 0, 'music': 17, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 87
+Which town was Mozart born in?
+for-kids
+{'sports': 0, 'music': 1, 'video-games': 0, 'for-kids': 5, 'science-technology': 0}
+Question Number: 88
+What is the name of the famous franchise of life simulation games?
+video-games
+{'sports': 1, 'music': 0, 'video-games': 21, 'for-kids': 2, 'science-technology': 0}
+Question Number: 89
+Which corporation owns the digital gaming platform Steam?
+video-games
+{'sports': 1, 'music': 0, 'video-games': 10, 'for-kids': 2, 'science-technology': 0}
+Question Number: 90
+What is the name of the motherly goat-like monster in the game Undertale?
+video-games
+{'sports': 0, 'music': 1, 'video-games': 6, 'for-kids': 1, 'science-technology': 0}
+Question Number: 91
+Which of the following programming languages is a front-end programming language: CSS? Java? Python? C? C++?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 92
+To which field does Natural Language Processing belong?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 5}
+Question Number: 93
+In which part of the human brain are visual sensory information processed?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 6}
+Question Number: 94
+How many minutes is a soccer match?
+video-games
+{'sports': 9, 'music': 0, 'video-games': 15, 'for-kids': 0, 'science-technology': 1}
+Question Number: 95
+Who is the world record holder in the 100m sprint?
+sports
+{'sports': 11, 'music': 0, 'video-games': 1, 'for-kids': 1, 'science-technology': 1}
+Question Number: 96
+How many matches did Mohammed Ali lose in his career?
+sports
+{'sports': 5, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 97
+Name the school that Harry Potter attended
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 1}
+Question Number: 98
+How many houses do exist in Hogwarts?
+sports
+{'sports': 1, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 1}
+Question Number: 99
+What is the name of the toy cowboy in Toy Story?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 100
+Who is called the king of pop?
+music
+{'sports': 0, 'music': 3, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 101
+What is the first name of compose Vivaldi?
+music
+{'sports': 1, 'music': 7, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 102
+Who made the highly rated 1959 jazz album Kind of Blue?
+music
+{'sports': 0, 'music': 18, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 103
+What is the world's most famous soccer video game?
+video-games
+{'sports': 9, 'music': 0, 'video-games': 24, 'for-kids': 2, 'science-technology': 0}
+Question Number: 104
+What is the name of the main character in Tomb Raider?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 3, 'for-kids': 0, 'science-technology': 0}
+Question Number: 105
+In which year was the first Sega console released?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 8, 'for-kids': 5, 'science-technology': 0}
+Question Number: 106
+What is the majority of the Cell nucleus?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 7}
+Question Number: 107
+What is periodic table 14th element?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 14}
+Question Number: 108
+What is translated from RNA in the Cell?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 3}
+Question Number: 109
+What sport is called soccer for americans and involve kicking a ball?
+sports
+{'sports': 10, 'music': 0, 'video-games': 1, 'for-kids': 6, 'science-technology': 0}
+Question Number: 110
+What sport in India resembles tag?
+sports
+{'sports': 14, 'music': 0, 'video-games': 2, 'for-kids': 1, 'science-technology': 1}
+Question Number: 111
+What is the longest distance flown in skiflying?
+sports
+{'sports': 3, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 112
+What is a baby dog called?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 2}
+Question Number: 113
+what colour is the sky?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 8}
+Question Number: 114
+What would come after T in the sequence F, S, S, E, N, T?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 1, 'for-kids': 4, 'science-technology': 6}
+Question Number: 115
+It can be both electric and acoustic, what is it?
+Question Number: 115
+It can be both electric and acoustic, what is it?
+Question Number: 115
+It can be both electric and acoustic, what is it?
+Question Number: 115
+It can be both electric and acoustic, what is it?
+music
+{'sports': 0, 'music': 9, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 116
+What Michael Jackson song had the first Music video on MTV?
+music
+{'sports': 0, 'music': 15, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 117
+What is the common hearing range for a human?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 4}
+Question Number: 118
+What game is known for stealing cars and beating/killing people?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 5, 'for-kids': 0, 'science-technology': 0}
+Question Number: 119
+What is the largest crowdsources videogame to date?
+video-games
+{'sports': 2, 'music': 0, 'video-games': 12, 'for-kids': 0, 'science-technology': 1}
+Question Number: 120
+In what popular videogame depicting the west against east did a third Eastern affected scifi side appear?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 5, 'for-kids': 4, 'science-technology': 1}
+Question Number: 121
+Who was the first programmer?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 17}
+Question Number: 122
+What compound is a common component of air pollution, but is
+essential in the upper atmosphere to protect life on earth?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 5}
+Question Number: 123
+What poisonous alkaloid is extracted from tobacco leaves and widely
+used as an insecticide?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 10}
+Question Number: 124
+
+How many players, including the goaltender, make up an ice hockey team?
+sports
+{'sports': 8, 'music': 0, 'video-games': 4, 'for-kids': 2, 'science-technology': 0}
+Question Number: 125
+Who won the 2013 Tour de France?
+sports
+{'sports': 7, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 126
+In polo, what is a period of play called?
+sports
+{'sports': 6, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 127
+Which big country is closest to New Zealand?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 128
+How many colours are in a rainbow?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 6}
+Question Number: 129
+What is the name of the bear in The Jungle Book?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 1}
+Question Number: 130
+Which is the most popular song from Ludwig van Beethoven?
+music
+{'sports': 0, 'music': 7, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 131
+What is the first name of compose Vivaldi?
+music
+{'sports': 1, 'music': 6, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 132
+What city hosted the Beatles as the resident band at the Kaiserkeller and Top Ten Club?
+music
+{'sports': 1, 'music': 3, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 133
+What is the highest selling video game console of all time?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 34, 'for-kids': 1, 'science-technology': 0}
+Question Number: 134
+What was the first console to have an analog stick and 3D graphics?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 30, 'for-kids': 4, 'science-technology': 0}
+Question Number: 135
+True or False? A British man had his name legally changed to PlayStation.
+video-games
+{'sports': 0, 'music': 1, 'video-games': 4, 'for-kids': 0, 'science-technology': 0}
+Question Number: 136
+In what SI-unit is thermodynamic temperature measured?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 1}
+Question Number: 137
+What is the process of changing magnetic fields to generate power called?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 9}
+Question Number: 138
+International Business Machines Corporation (IBM)?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 5, 'science-technology': 0}
+Question Number: 139
+Which title does Nichlas Bendtner have?
+sports
+{'sports': 11, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 140
+Which players has the most super bowl wins?
+sports
+{'sports': 11, 'music': 0, 'video-games': 1, 'for-kids': 3, 'science-technology': 0}
+Question Number: 141
+From which country does Handball origin?
+sports
+{'sports': 10, 'music': 0, 'video-games': 1, 'for-kids': 9, 'science-technology': 0}
+Question Number: 142
+Which teletubbie is green?
+sports
+{'sports': 3, 'music': 0, 'video-games': 0, 'for-kids': 3, 'science-technology': 0}
+Question Number: 143
+What is the shadow called in The Bear In The Big Blue House
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 144
+What is the name of the main villain in Kim Possible?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 145
+In what band was John Lennon vocalist?
+music
+{'sports': 0, 'music': 8, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 146
+On what album does "Thunderstruck" and "TNT" by AC/DC appear?
+music
+{'sports': 0, 'music': 25, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 147
+In which year was the album "Random Access Memories" by Daft Punk released?
+music
+{'sports': 1, 'music': 15, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 148
+Which company release the Playstation 4?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 20, 'for-kids': 0, 'science-technology': 0}
+Question Number: 149
+Who is the creator of Mario?
+Question Number: 149
+Who is the creator of Mario?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 10, 'for-kids': 1, 'science-technology': 0}
+Question Number: 150
+How many game systems (consoles & portable consoles) has Nintendo release?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 43, 'for-kids': 3, 'science-technology': 1}
+Question Number: 151
+Which company creates phones, computers, etc. and has its own operating system?
+science-technology
+{'sports': 2, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 8}
+Question Number: 152
+To what company ShareLaTeX was sold?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 153
+What is the annual technology conference which is held in January?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 154
+What is the name of a game where you have to kick a ball with your foot?
+video-games
+{'sports': 7, 'music': 0, 'video-games': 8, 'for-kids': 3, 'science-technology': 1}
+Question Number: 155
+Who won 2018 FIFA world cup?
+sports
+{'sports': 15, 'music': 0, 'video-games': 1, 'for-kids': 0, 'science-technology': 0}
+Question Number: 156
+Who won 2018 Formula 1 season?
+sports
+{'sports': 8, 'music': 0, 'video-games': 1, 'for-kids': 0, 'science-technology': 0}
+Question Number: 157
+What color is Lemon?
+sports
+{'sports': 2, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 2}
+Question Number: 158
+What is the name of a walking dog character in Donald Duck?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 159
+What is the color of Aubergine?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 2}
+Question Number: 160
+What kind of music does Skrillex perform?
+music
+{'sports': 0, 'music': 17, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 161
+Which country won the 2018 eurovision?
+music
+{'sports': 7, 'music': 17, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 162
+Which composer was deaf?
+music
+{'sports': 0, 'music': 8, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 163
+Which company does Blizzard belong to? 
+video-games
+{'sports': 0, 'music': 0, 'video-games': 2, 'for-kids': 0, 'science-technology': 0}
+Question Number: 164
+Who publishes the Mario games?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 24, 'for-kids': 0, 'science-technology': 0}
+Question Number: 165
+MMO RPG greated by Blizzard?
+video-games
+{'sports': 1, 'music': 0, 'video-games': 7, 'for-kids': 0, 'science-technology': 0}
+Question Number: 166
+Who was the first female computer scientist?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 1, 'for-kids': 7, 'science-technology': 11}
+Question Number: 167
+What theorem is this equation: a^2 + b^2 = c^2 from?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 17}
+Question Number: 168
+What is the formula for Newton's Second Law?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 26}
+Question Number: 169
+Who is the most famous football player from Malmö?
+sports
+{'sports': 2, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 170
+How many holes are there in a round of a golf game?
+video-games
+{'sports': 3, 'music': 1, 'video-games': 7, 'for-kids': 2, 'science-technology': 0}
+Question Number: 171
+In what countries was the Rugby World Cup first held? 
+sports
+{'sports': 8, 'music': 0, 'video-games': 0, 'for-kids': 8, 'science-technology': 0}
+Question Number: 172
+What equals 10+10?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 7}
+Question Number: 173
+What is the name of Dora the explorers monkey friend?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 174
+What is the chemical formula for water?
+science-technology
+{'sports': 1, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 20}
+Question Number: 175
+What is the famous song called from the movie Titanic? 
+music
+{'sports': 1, 'music': 15, 'video-games': 0, 'for-kids': 4, 'science-technology': 0}
+Question Number: 176
+What was the name of the band that Michael Jackson was a part of with his siblings?
+music
+{'sports': 0, 'music': 7, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 177
+Who composed the classical music for the Swan Lake?
+music
+{'sports': 0, 'music': 21, 'video-games': 0, 'for-kids': 3, 'science-technology': 0}
+Question Number: 178
+What is the famous football video game called?
+video-games
+{'sports': 2, 'music': 0, 'video-games': 13, 'for-kids': 3, 'science-technology': 0}
+Question Number: 179
+What game is Lara Croft associated with?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 5, 'for-kids': 2, 'science-technology': 0}
+Question Number: 180
+What do you need to write to get a lot of money for free in Sims?
+video-games
+{'sports': 1, 'music': 0, 'video-games': 15, 'for-kids': 1, 'science-technology': 0}
+Question Number: 181
+What is a sum of triangle angles?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 14}
+Question Number: 182
+When was a first iPhone released?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 10, 'science-technology': 0}
+Question Number: 183
+Which year was electricity invented?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 4, 'science-technology': 2}
+Question Number: 184
+How many players are on the field when playing football?
+sports
+{'sports': 10, 'music': 0, 'video-games': 3, 'for-kids': 0, 'science-technology': 0}
+Question Number: 185
+Who has won most olympic medals?
+sports
+{'sports': 61, 'music': 2, 'video-games': 8, 'for-kids': 0, 'science-technology': 0}
+Question Number: 186
+Which year were the first modern Olympic Games held?
+Question Number: 186
+Which year were the first modern Olympic Games held?
+sports
+{'sports': 16, 'music': 0, 'video-games': 11, 'for-kids': 5, 'science-technology': 0}
+Question Number: 187
+How many days are in a week?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 2}
+Question Number: 188
+With who was Nemo's father accompanied during looking for his son?
+sports
+{'sports': 2, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 189
+What is the oldest animated film released by Disney?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 6, 'science-technology': 2}
+Question Number: 190
+What is the first name of Amadeus Mozart?
+music
+{'sports': 0, 'music': 4, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 191
+How many keys has a piano?
+music
+{'sports': 0, 'music': 12, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 192
+When was The Beatles formed?
+music
+{'sports': 0, 'music': 7, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 193
+What color is a Super Mario's cap?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 1, 'for-kids': 4, 'science-technology': 0}
+Question Number: 194
+What is the most popular racing game created by EA?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 21, 'for-kids': 0, 'science-technology': 0}
+Question Number: 195
+What is a first video game invented?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 15, 'for-kids': 7, 'science-technology': 4}
+Question Number: 196
+Which food contain more vitamin C; A lemon or a pepper?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 197
+What is the largest human organ?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 6}
+Question Number: 198
+How many dwarf planets are in the solar system? 1, 5 or 10?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 2}
+Question Number: 199
+In which country were the first Olympic Games held?
+sports
+{'sports': 8, 'music': 0, 'video-games': 6, 'for-kids': 4, 'science-technology': 0}
+Question Number: 200
+Which is the only country to have played in each and every World Cup?
+sports
+{'sports': 7, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 201
+Which popular fitness method was invented by a German?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 7, 'science-technology': 1}
+Question Number: 202
+What is the name of the cartoon where there are 3 sisters called; Blossom, Bubbles and Buttercup?
+for-kids
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 5, 'science-technology': 0}
+Question Number: 203
+Who is the world’s largest land animal?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 2}
+Question Number: 204
+How many colours are in a rainbow?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 1, 'science-technology': 4}
+Question Number: 205
+Where is the group abba from?
+music
+{'sports': 0, 'music': 9, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 206
+Which one direction member left the group in 2015; Liam, Zayn or Harry?
+music
+{'sports': 0, 'music': 15, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 207
+What singer holds the world record for most words in a hit single; Eminem, 50 Cent or Busta Rhymes?
+music
+{'sports': 0, 'music': 13, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 208
+What year did Wii come out?
+video-games
+{'sports': 1, 'music': 0, 'video-games': 44, 'for-kids': 1, 'science-technology': 0}
+Question Number: 209
+What is the highest selling video game console of all time?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 34, 'for-kids': 1, 'science-technology': 0}
+Question Number: 210
+What is the first female fighting game character called?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 29, 'for-kids': 2, 'science-technology': 0}
+Question Number: 211
+How many weeks are in a year?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 1}
+Question Number: 212
+What is the smallest prime number?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 6}
+Question Number: 213
+What is the heaviest organ in the human body
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 2}
+Question Number: 214
+How many members are in a football team?
+sports
+{'sports': 3, 'music': 0, 'video-games': 2, 'for-kids': 2, 'science-technology': 0}
+Question Number: 215
+Where is the birthplace of golf?
+for-kids
+{'sports': 2, 'music': 0, 'video-games': 1, 'for-kids': 10, 'science-technology': 0}
+Question Number: 216
+Which football player keeps the highest goal scoring record?
+sports
+{'sports': 8, 'music': 0, 'video-games': 1, 'for-kids': 5, 'science-technology': 0}
+Question Number: 217
+Who wrote the little match girl?
+music
+{'sports': 0, 'music': 2, 'video-games': 0, 'for-kids': 2, 'science-technology': 0}
+Question Number: 218
+What is the name of Cinderella's prince?
+sports
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 219
+Is yellow one of the standard additive primary colors of light?
+science-technology
+{'sports': 0, 'music': 1, 'video-games': 0, 'for-kids': 0, 'science-technology': 7}
+Question Number: 220
+What is the birth country of Frédéric Chopin?
+music
+{'sports': 0, 'music': 2, 'video-games': 0, 'for-kids': 1, 'science-technology': 0}
+Question Number: 221
+What is the Best-Selling Albums in History?
+music
+{'sports': 0, 'music': 45, 'video-games': 0, 'for-kids': 3, 'science-technology': 0}
+Question Number: 222
+Which song did India Arie sing during the 60th Annual Grammy Awards?
+music
+{'sports': 7, 'music': 9, 'video-games': 0, 'for-kids': 0, 'science-technology': 0}
+Question Number: 223
+When was Fortnite released?
+video-games
+{'sports': 2, 'music': 0, 'video-games': 17, 'for-kids': 0, 'science-technology': 0}
+Question Number: 224
+What is the publisher of game League of Legends?
+video-games
+{'sports': 9, 'music': 0, 'video-games': 21, 'for-kids': 0, 'science-technology': 0}
+Question Number: 225
+When was the first Star Wars video game created?
+video-games
+{'sports': 0, 'music': 0, 'video-games': 21, 'for-kids': 6, 'science-technology': 0}
+Question Number: 226
+What number on the pH-scale indicates a neutral value?
+science-technology
+{'sports': 0, 'music': 0, 'video-games': 0, 'for-kids': 0, 'science-technology': 7}
+Question Number: 227
+What is the smallest planet in our solar system?
+Question Number: 227
+What is the smallest planet in our solar system?
