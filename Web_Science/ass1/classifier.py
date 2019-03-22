@@ -8,7 +8,7 @@ for arg in sys.argv:
 #Verbose for Debugging
 def log(message):
   if DEBUG:
-    log(message)
+    print(message)
 
 import collections
 
