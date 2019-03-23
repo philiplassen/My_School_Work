@@ -35,22 +35,22 @@ data["difficulty"] = data["difficulty"].apply(category_to_int)
 
 
 def majority_vote(votes, number_of_outcomes):
-  a = [0] * number__of_outcomes
+  a = [0] * (number_of_outcomes + 1)
   for v in votes:
     a[v] += 1
   return a.index(max(a))
 
+fdf = pd.DataFrame({"question" : [], "difficulty" : [], "opinion" : [], "factuality" : []})
+print(fdf)
 
-print(data["difficulty"])
 for r in result:
-  if count > 0:
-    break
-  print(r)
-  print("after printing r")
-  print(r[0])
-  print("after first element has been printed")
-  print(r[1]["difficulty"].values.tolist())
-  print("after 2nd element has been printed")
-  count += 1
+  q = (r[0])
+  dif = majority_vote(r[1]["difficulty"].values.tolist(), 3)
+  op = majority_vote(r[1]["opinion"].values.tolist(), 3)
+  fac = majority_vote(r[1]["factuality"].values.tolist(), 2)
+  temp = {"question" : q, "difficulty" : dif, "opinion" : op, "factuality" : fac}
+  fdf =fdf.append(temp, ignore_index = True)
+
+print(fdf)
 
 
