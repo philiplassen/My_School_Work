@@ -20,7 +20,7 @@ training_data = pd.read_csv("train_dataset.csv", header = None, encoding = "iso-
 training_data.columns = ["ID", "Question", "Answer", "Category"]
 
 test_data =  pd.read_csv("question_answer.csv", header = None, names = ["Question", "Answer"], sep=";")
-
+log
 def cleanString(word):
   return "".join(s for s in word if (s.isalpha() or s.isdigit())).lower()  
 
