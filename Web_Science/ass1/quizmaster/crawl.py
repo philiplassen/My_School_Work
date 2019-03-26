@@ -22,7 +22,6 @@ def log(message):
     print(message)
 
 
-query = "Who released the album fearless"
 #result = search(query, num = 40, pause = 9.0, stop = 40)
 count = 0
 music_words = {"song", "single", "album", "artist", "singer", "music"}

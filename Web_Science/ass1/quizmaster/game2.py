@@ -35,10 +35,7 @@ def choose_cat(scores):
   for key, value in thresh.items():
     if r < value:
       return key
-
-
-
-
+      
 def qa(question, answer):
   print(question)
   log(answer)
