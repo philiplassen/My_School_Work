@@ -21,11 +21,6 @@ if '-s1' in sys.argv:
   player_profile = {"science-technology" : .2, "for-kids" : .2,  "video-games" : .2,  "sports" : .2,  "music" : .8}
   
 
-if '-s2' in sys.argv:
-  Sim = True
-  player_profile = {"science-technology" : .2, "for-kids" : .2,  "video-games" : .2,  "sports" : .2,  "music" : .333}
- 
-
 def log(message):
   if DEBUG:
     print(message)
@@ -89,8 +84,8 @@ if '-1' in sys.argv:
 if '-2' in sys.argv:
 
   # Dictionary that holds the users scores for question from each topic
-  scores= {"sports" : [1, 0, 0], "music" : [1, 0, 0] ,"video-games" : [1, 0, 0], "for-kids" : [1, 0, 0], "science-technology" : [1, 0, 0]}
-
+  initial_scores = [1, 1]
+  scores= {"sports" : [1, 1, 1, 1, 1], "music" : [1, 1, 1, 1, 1], "video-games" : [1, 1, 1, 1, 1], "for-kids" : [1, 1, 1, 1, 1], "science-technology" : [1, 1, 1, 1, 1]}
 
 
   def choose_cat(scores):
@@ -121,32 +116,25 @@ if '-2' in sys.argv:
     return False
   old_acc = {c : 100 for c in scores.keys()} 
   accuracy = {c : sum(scores[c])/ len(scores[c]) for c in scores.keys()} 
-  dif = sum([np.abs(old_acc[c] - accuracy[c]) for c in scores.keys()])
-  print(old_acc)
-  print(accuracy)
-  print(dif)
+  dif = sum([np.abs(old_acc[c] - accuracy[c]) for c in scores.keys())
   c = choose_cat(scores)
-  while ( dif < 0.00001  or dif  > .002 and n < 1000): 
+  while (dif  > .05 and n < 25): 
     n += 1
     c = choose_cat(scores) 
     log(c)
     old_acc = accuracy
     df = data.loc[data["category"] == c]
     row = random.randint(0, df.shape[0] - 1)
-    scores[c] += [qa_row(df.iloc[row])]
+    print(scores[c])
     accuracy = {c : sum(scores[c])/ len(scores[c]) for c in scores.keys()} 
-    dif = sum([np.abs(old_acc[c] - accuracy[c]) for c in scores.keys()])
-    print(old_acc)
-    print(accuracy)
-    print(dif)
+    scores[c] += [qa_row(df.iloc[row])]
     log(scores)
 
   print("number of questions before convergence is : " + str(n))
   def get_max_key(scores):
     return max(scores.items(), key=operator.itemgetter(1))[0]  
 
-  cat = get_max_key(accuracy)
-  print(cat)
+  cat = get_max_key(scores)
   df_cat = data.loc[data["category"] == cat]
   while (not Sim):
     row = random.randint(0, df_cat.shape[0] - 1)
