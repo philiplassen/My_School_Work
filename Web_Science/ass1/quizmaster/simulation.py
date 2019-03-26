@@ -9,6 +9,10 @@ DEBUG = False
 if '-v' in sys.argv:
   DEBUG = True
 
+Sim = False
+if '-s' in sys.argv
+  Sim = True 
+
 def log(message):
   if DEBUG:
     print(message)
