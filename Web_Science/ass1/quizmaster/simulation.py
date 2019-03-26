@@ -10,12 +10,27 @@ if '-v' in sys.argv:
   DEBUG = True
 
 Sim = False
-if '-s' in sys.argv
-  Sim = True 
+player_profile = 0
+topics = ["science-technology", "for-kids",  "video-games",  "sports",  "music"]
+if '-s' in sys.argv:
+  Sim = True
+  player_profile = {t : float(input("Accuracy for " + t + " ? : ")) for t in topics}
+  
+if '-s1' in sys.argv:
+  Sim = True
+  player_profile = {"science-technology" : .2, "for-kids" : .2,  "video-games" : .2,  "sports" : .2,  "music" : .8}
+  
 
 def log(message):
   if DEBUG:
     print(message)
+
+
+def keep_going():
+  if Sim:
+    return True
+  return input("Would you like to keep Guessing | 0 = No | 1 = Yes ? : ") == "1"
+
 
 def qa(question, answer):
   print(question)
@@ -28,8 +43,11 @@ def qa(question, answer):
   return int(guess == answer)
     
 def qa_row(series):
+  if Sim:
+    categ = series["category"]
+    pr = player_profile[categ]
+    return np.random.uniform() < pr
   return qa(series["question"], series["answer"])
-
   
 if '-1' in sys.argv:
   print("Welcome to the Ultimate Quiz")
@@ -61,9 +79,7 @@ if '-1' in sys.argv:
   while(Go):
     row = random.randint(0, df.shape[0] - 1)
     qa_row(df.iloc[row])
-    Go = input("Would you like to keep Guessing | 0 = No | 1 = Yes ? : ") == "1"
-
-
+    Go = keep_going()
 
 if '-2' in sys.argv:
 
@@ -88,15 +104,6 @@ if '-2' in sys.argv:
       if r < value:
         return key
         
-  def qa(question, answer):
-    print(question)
-    log(answer)
-    guess = input("What is the answer? : ")
-    return int(guess == answer)
-      
-  def qa_row(series):
-    return qa(series["question"], series["answer"])
-
   n = 0 #number of total questions asked
   def is_double(scores):
     for k in scores.keys():
@@ -119,15 +126,16 @@ if '-2' in sys.argv:
     scores[c] += [qa_row(df.iloc[row])]
     log(scores)
 
+  print("number of questions before convergence is : " + str(n))
   def get_max_key(scores):
     return max(scores.items(), key=operator.itemgetter(1))[0]  
 
   cat = get_max_key(scores)
   df_cat = data.loc[data["category"] == cat]
-  while (True):
+  while (not Sim):
     row = random.randint(0, df_cat.shape[0] - 1)
     qa_row(df_cat.iloc[row])
-
+    keep_going()
 
 if '-3' in sys.argv:
 
@@ -200,7 +208,7 @@ if '-5' in sys.argv:
     df = data.loc[data["difficulty"] == level]
     row = random.randint(0, df.shape[0] - 1)
     level += qa_row(df.iloc[row])
-    Go = input("Would you like to keep Guessing | 0 = No | 1 = Yes ? : ") == "1"
+    Go = keep_going()
 
 
   print("YOU HAVE COMPLETE THE GAME")
