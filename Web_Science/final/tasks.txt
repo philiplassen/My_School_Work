@@ -1,0 +1,15 @@
+Before I go to bed -
+
+
+Finished User to User CDF with XFolds cross-validation
+
+Almost finished Contant Based Recommender System
+
+Preproccessing for Sentinment analysis
+
+Write up for WEB Challenges question
+
+Write up for CF Recommender System
+
+
+
